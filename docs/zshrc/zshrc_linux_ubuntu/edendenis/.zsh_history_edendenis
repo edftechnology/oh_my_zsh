@@ -1,0 +1,1218 @@
+: 1719927344:0;which zsh
+: 1719927344:0;zsh
+: 1719927344:0;code ~/.zshrc
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;ls
+: 1719927344:0;ls -l
+: 1719927344:0;sudo apt clean
+: 1719927344:0;cd ~/anaconda3/etc/profile.d
+: 1719927344:0;ls -al | grep anaconda3
+: 1719927344:0;which anaconda3
+: 1719927344:0;which conda
+: 1719927344:0;rm -rf edenedfsls
+: 1719927344:0;sudo /opt/anaconda3/
+: 1719927344:0;sudo rm -rf /opt/anaconda3/
+: 1719927344:0;conda base activate
+: 1719927344:0;conda
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;chmod +x Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;./Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;sudo thunar
+: 1719927344:0;conda config --set auto_activate_base true
+: 1719927344:0;conda init
+: 1719927344:0;python
+: 1719927344:0;bash
+: 1719927344:0;chsh -s /bin/bash\
+
+: 1719927344:0;conda activate base
+: 1719927344:0;sudo chsh -s /bin/bash\
+
+: 1719927344:0;which bash
+: 1719927344:0;sudo chsh -s /usr/bin/bash\
+
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;chsh -s $(which zsh)
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`\
+
+: 1719927344:0;git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+: 1719927344:0;sudo nano ~./zshrc
+: 1719927344:0;sudo nano ~/.zshrc
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;python
+: 1719927344:0;gs -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dNOPAUSE -dQUIET -dBATCH -sOutputFile=seu_main_k_means_aerotaxonomy_nao_selecionavel.pdf main_k_means_aerotaxonomy.pdf\
+
+: 1719927344:0;pdftoppm main_k_means_aerotaxonomy.pdf pagina -png\
+img2pdf pagina-*.png -o seu_documento_nao_selecionavel.pdf\
+\
+
+: 1719927344:0;sudo apt install img2pdf
+: 1719927344:0;sudo apt install img2pdf -y
+: 1719927344:0;img2pdf pagina-*.png -o seu_documento_nao_selecionavel.pdf\
+
+: 1719927344:0;rm -rf pagina*
+: 1719927344:0;conda activate base
+: 1719927344:0;pdftk Minha_Fatura_BUSINESS_18776123.pdf input_pw 18776123 output Minha_Fatura_BUSINESS_18776123_2.pdf
+: 1719927344:0;qpdf --password=18776123 --decrypt Minha_Fatura_BUSINESS.pdf output_pdf
+: 1719927344:0;python
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.8 1\
+        sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.11 2\
+        sudo update-alternatives --config python
+: 1719927344:0;python --version
+: 1719927344:0;python
+: 1719927344:0;conda deactivate
+: 1719927344:0;python
+: 1719927344:0;alias
+: 1719927344:0;echo $PATH
+: 1719927344:0;cd ~/Desktop
+: 1719927344:0;sudo apt install pdftk
+: 1719927344:0;sudo apt install qpdf -y
+: 1719927344:0;flatpak install --user [6](https://flathub.org/repo/appstream/com.github.jkotra.unlockr.flatpakref)\
+flatpak --user update com.github.jkotra.unlockr\
+flatpak run com.github.jkotra.unlockr
+: 1719927344:0;<pre><font color="#739FCF"><b>$</b></font> flatpak install --user [6](https://flathub.org/repo/appstream/com.github.jkotra.unlockr.flatpakref)\
+flatpak --user update com.github.jkotra.unlockr\
+flatpak run com.github.jkotra.unlockr\
+zsh: unknown file attribute: h\
+Looking for updates…\
+<font color="#EF2929"><b>error: </b></font>com.github.jkotra.unlockr not installed\
+<font color="#EF2929"><b>error: </b></font>app/com.github.jkotra.unlockr/x86_64/master not installed\
+</pre>
+: 1719927344:0;flatpak install --user https://flathub.org/repo/appstream/com.github.jkotra.unlockr.flatpakref\
+flatpak --user update com.github.jkotra.unlockr\
+flatpak run com.github.jkotra.unlockr\
+
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;pdftoppm main_k_means_aerotaxonomy.pdf pagina -png\
+img2pdf pagina-*.png -o main_k_means_aerotaxonomy_NAO_selecionavel.pdf\
+\
+
+: 1719927344:0;rm -rf pagina*
+: 1719927344:0;pdftoppm main_k_means_aerotaxonomy.pdf pagina -png\
+img2pdf pagina-*.png -o main_k_means_aerotaxonomy_NAO_selecionavel.pdf\
+rm -rf pagina*\
+
+: 1719927344:0;python
+: 1719927344:0;pip install qrcode[pil]
+: 1719927344:0;python
+: 1719927344:0;python gerenate_qr_code.py
+: 1719927344:0;python generate_qr_code.py
+: 1719927344:0;pdftoppm main_k_means_aerotaxonomy.pdf pagina -png\
+img2pdf pagina-*.png -o main_k_means_aerotaxonomy_NAO_selecionavel.pdf\
+\
+
+: 1719927344:0;rm -rf pagina*
+: 1719927344:0;pdftoppm main_k_means_aerotaxonomy.pdf pagina -png\
+img2pdf pagina-*.png -o main_k_means_aerotaxonomy_NAO_selecionavel.pdf\
+\
+
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt install timeshift -y
+: 1719927344:0;sudo update-alternatives --install /usr/bin/python python /usr/local/bin/python3.8 1
+: 1719927344:0;sudo update-alternatives --config python
+: 1719927344:0;python --version
+: 1719927344:0;ssh u0_a382@192.168.0.11 -p 8022
+: 1719927344:0;whoami
+: 1719927344:0;ifconfig
+: 1719927344:0;ssh u0_a267@192.168.0.2 -p 8022
+: 1719927344:0;ssh u0_a267@192.168.0.2 -p 80225
+: 1719927344:0;ssh u0_a267@192.168.0.2 -p 8022
+: 1719927344:0;ifconfig
+: 1719927344:0;sudo apt install net-tools
+: 1719927344:0;ssh u0_a382@192.168.0.11 -p 8022
+: 1719927344:0;ssh u0_a382@192.168.0.1 -p 8022
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;rclone config
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;python
+: 1719927344:0;echo $PATH
+: 1719927344:0;which python
+: 1719927344:0;which python3.8
+: 1719927344:0;alias python='/usr/local/bin/python3.8'
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;python
+: 1719927344:0;pip install qrcode[pil]
+: 1719927344:0;conda deactivate
+: 1719927344:0;pip install qrcode[pil]
+: 1719927344:0;conda activate base
+: 1719927344:0;ssh -l edenedfsls 201.75.170.141
+: 1719927344:0;ssh u0_aXXX@192.168.0.11 -p 8022
+: 1719927344:0;ssh u0_aa382@192.168.0.11 -p 8022
+: 1719927344:0;ssh u0_aa382@192.168.0.82 -p 8022
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;ssh u0_aa267@192.168.0.67 -p 8022
+: 1719927344:0;sudo sh -c 'echo "deb https://www.realvnc.com/download/binary/latest/debian/ `lsb_release -cs`/" >/etc/apt/sources.list.d/realvnc.list'\
+
+: 1719927344:0;wget -O - https://www.realvnc.com/download/binary/latest/debian/key | sudo apt-key add -\
+
+: 1719927344:0;sudo apt update\
+
+: 1719927344:0;sudo apt install realvnc-vnc-server\
+
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;[200~wget https://github.com/ventoy/Ventoy/releases/download/v1.0.62/ventoy-1.0.62-linux.tar.gz
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo rm /etc/apt/sources.list.d/realvnc.list\
+
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;wget https://github.com/ventoy/Ventoy/releases/download/v1.0.62/ventoy-1.0.62-linux.tar.gz\
+
+: 1719927344:0;tar -zxvf ventoy-1.0.62-linux.tar.gz\
+
+: 1719927344:0;cd ventoy-1.0.62\
+
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=afBAz4kMZQM&t=326s
+: 1719927344:0;tar -xvzf <nome-do-arquivo>.tar.gz
+: 1719927344:0;tar -xvzf VNC-Connect-Installer-2.2.1-Linux-x64.tar.gz
+: 1719927344:0;ls -al | grep VNC*
+: 1719927344:0;ls -al | grep VNC
+: 1719927344:0;tar -xvzf VNC-Connect-Installer-2.2.1-Linux-x64.tar.gz
+: 1719927344:0;ssh u0_aa382@192.168.0.82 -p 8022
+: 1719927344:0;ssh u0_aa267@192.168.0.67 -p 8022
+: 1719927344:0;cd videos
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=DGTkPW42VxI&t=566s
+: 1719927344:0;sudo thunar
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo ufw status
+: 1719927344:0;ssh u0_aa267@192.168.0.67 -p 8022
+: 1719927344:0;ssh u0_a267@192.168.0.67 -p 8022
+: 1719927344:0;ssh u0_a382@192.168.0.82 -p 8022
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;dpkg -l | grep wps-office\
+
+: 1719927344:0;sudo apt-get remove wps-office -y\
+
+: 1719927344:0;sudo apt-get autoremove\
+
+: 1719927344:0;sudo snap remove wps-office\
+
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo systemctl suspend
+: 1719927344:0;sudo nano /usr/share/gnome-shell/theme/ubuntu.css
+: 1719927344:0;sudo nano /usr/share/gnome-shell/theme/gdm3.css
+: 1719927344:0;sudo gedit /usr/share/gnome-shell/theme/ubuntu.css
+: 1719927344:0;sudo nano /etc/lightdm/lightdm-gtk-greeter.conf\
+
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt-get update && sudo apt-get install perl libdata-dump-perl libio-socket-ssl-perl libwww-perl libnet-ssleay-perl librpc-xml-perl\
+
+: 1719927344:0;git clone https://github.com/infobyte/evilgrade.git\
+
+: 1719927344:0;cd evilgrade\
+
+: 1719927344:0;chmod +x evilgrade\
+./evilgrade\
+
+: 1719927344:0;cd evilgrade\
+
+: 1719927344:0;evilgrade
+: 1719927344:0;pwd
+: 1719927344:0;export PERL5LIB=$PERL5LIB:/home/edenedfsls/evilgrade/isrcore\
+
+: 1719927344:0;./evilgrade\
+
+: 1719927344:0;ls /home/edenedfsls/evilgrade/isrcore\
+
+: 1719927344:0;export PERL5LIB=$PERL5LIB:/home/edenedfsls/evilgrade/isrcore/isrcore\
+
+: 1719927344:0;./evilgrade\
+
+: 1719927344:0;export PERL5LIB=$PERL5LIB:/home/edenedfsls/evilgrade/isrcore\
+
+: 1719927344:0;perl -e 'use isrcore::Shell;'\
+
+: 1719927344:0;ssh u0_a382@192.168.0.82 -p 8022
+: 1719927344:0;ssh u0_a382@10.64.93.66 -p 8022
+: 1719927344:0;ssh u0_a382@127.0.0.1 -p 8022
+: 1719927344:0;ssh u0_a382@10.64.93.66 -p 8022
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;hostname\\
+
+: 1719927344:0;sudo nano /etc/hostname
+: 1719927344:0;sudo nano /etc/hosts
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;a="Vocë poderia compartilhar o link do código para que nÃ�o tenhamos que digitar tudo para testar e entender?"
+: 1719927344:0;trans -brief pt-BR:en $a
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=UWZvRmMVUzQ
+: 1719927344:0;git clone https://github.com/chmp/ipytest.git
+: 1719927344:0;speedtest-cli --share
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;unrar + "01. BinÃ�rio.rar"
+: 1719927344:0;sudo apt install unrar -y
+: 1719927344:0;sudo systemctl suspend
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=YxW_L2Us0Is
+: 1719927344:0;rm -rf kali-linux-2023.3-live-amd64.iso
+: 1719927344:0;rm -rf ubuntu-22.04.4-live-server-amd64.iso
+: 1719927344:0;rm -rf xubuntu-22.04.3-desktop-amd64.iso
+: 1719927344:0;rm -rf Win10_22H2_EnglishInternational_x64v1.iso
+: 1719927344:0;tar -xvzf ventoy-1.0.97-livecd.iso
+: 1719927344:0;git clone https://github.com/ventoy/Ventoy.git
+: 1719927344:0;rm -rf Ventoy
+: 1719927344:0;rm -rf ventoy-1.0.97-livecd.iso
+: 1719927344:0;rm -rf Ventoy
+: 1719927344:0;git clone https://github.com/ventoy/Ventoy.git
+: 1719927344:0;git init
+: 1719927344:0;git clone https://github.com/ventoy/Ventoy.git
+: 1719927344:0;rm -rf Ventoy
+: 1719927344:0;tar -xvzf ventoy-1.0.97-linux.tar.gz
+: 1719927344:0;cd ventoy-1.0.62\
+
+: 1719927344:0;cd ventoy-1.0.97\
+
+: 1719927344:0;sudo ./Ventoy2Disk.sh -i /dev/sdx\
+
+: 1719927344:0;lsblk
+: 1719927344:0;sudo ./Ventoy2Disk.sh -i /dev/sdc\
+
+: 1719927344:0;ls -al | grep Ventoy
+: 1719927344:0;sudo ./Ventoy2Disk.sh -i /dev/sdc\
+
+: 1719927344:0;conda deactivate
+: 1719927344:0;sudo ./Ventoy2Disk.sh -i /dev/sdc\
+
+: 1719927344:0;conda activate base
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;cd ventoy-1.0.97\
+
+: 1719927344:0;sudo ./Ventoy2Disk.sh -i /dev/sdc\
+
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;ls
+: 1719927344:0;rm -rf output.pdf
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;umount -l /home/$USER/Documents\
+rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --umask 0002 --dir-perms 0775 --file-perms 0775 --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt install deja-dup -y
+: 1719927344:0;btop
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo systemctl suspend
+: 1719927344:0;btop
+: 1719927344:0;sudo systemctl suspend
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;cd /usr/local/bin/
+: 1719927344:0;ls -al | grep docker-compose
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt-get install \\
+        ca-certificates \\
+        curl \\
+        gnupg \\
+        lsb-release
+: 1719927344:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+: 1719927344:0;echo \\
+        "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\
+        $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+: 1719927344:0;sudo apt update -y
+: 1719927344:0;sudo apt install docker-ce docker-ce-cli containerd.io -y
+: 1719927344:0;sudo systemctl enable docker
+: 1719927344:0;sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+: 1719927344:0;sudo apt update -y
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret -y
+: 1719927344:0;ls -al | grep docke
+: 1719927344:0;ls -al
+: 1719927344:0;cd windows-docker
+: 1719927344:0;ls -al
+: 1719927344:0;sudo nano compose.yml
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;cd ..
+: 1719927344:0;ls -l
+: 1719927344:0;cd Downloads
+: 1719927344:0;ls
+: 1719927344:0;cd ..
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;ls
+: 1719927344:0;cd Downloads
+: 1719927344:0;ls -al
+: 1719927344:0;cd linux_unix
+: 1719927344:0;ls
+: 1719927344:0;cd ubuntu
+: 1719927344:0;ls -al
+: 1719927344:0;cd windows_via_docker_no_linux
+: 1719927344:0;ls -al
+: 1719927344:0;git clone https://github.com/dockur/windows.git
+: 1719927344:0;cd 
+: 1719927344:0;sudo cp /usr/local/bin/docker-compose /home/edenefsls/Documents/Downloads/linux_unix/ubuntu/windows_via_docker_no_linux
+: 1719927344:0;sudo cp /usr/local/bin/docker-compose /home/edenedfsls/Documents/Downloads/linux_unix/ubuntu/windows_via_docker_no_linux
+: 1719927344:0;sudo thunar
+: 1719927344:0;sudo chmod u+w /home/edenedfsls/Documents/Downloads/linux_unix/ubuntu/windows_via_docker_no_linux\
+
+: 1719927344:0;sudo thunar
+: 1719927344:0;cd /usr/local/bin/
+: 1719927344:0;ls -al | grep docker-compose
+: 1719927344:0;sudo cp /usr/local/bin/docker-compose ~/Desktop
+: 1719927344:0;cd ~/Desktop
+: 1719927344:0;ls -al
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;cd ~/Desktop
+: 1719927344:0;ls -al | grep docker-compose
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose\
+sudo chmod +x /usr/local/bin/docker-compose
+: 1719927344:0;cd /usr/local/bin/
+: 1719927344:0;ls -al | grep docker-compose
+: 1719927344:0;
+: 1719927344:0;sudo systemctl suspend
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt install libre-office
+: 1719927344:0;sudo apt install libreoffice -y
+: 1719927344:0;python
+: 1719927344:0;sudo apt install cpu-checker -y
+: 1719927344:0;sudo kvm-ok
+: 1719927344:0;conda --version
+: 1719927344:0;which python3.8
+: 1719927344:0;update-alternatives
+: 1719927344:0;sudo update-alternatives --config python
+: 1719927344:0;python --version
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;source ~/.bashrc
+: 1719927344:0;python
+: 1719927344:0;alias python='/usr/local/bin/python3.8'
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;python --version
+: 1719927344:0;python
+: 1719927344:0;sudo update-alternatives --config python
+: 1719927344:0;apt list --installed | grep python3.11
+: 1719927344:0;sudo apt remove python3.11\
+sudo apt autoremove\
+
+: 1719927344:0;python
+: 1719927344:0;which python3.11
+: 1719927344:0;cd /usr/local/bin/
+: 1719927344:0;ls -al | grep python3.11
+: 1719927344:0;sudo rm /usr/local/bin/python3.1*
+: 1719927344:0;ls -al | grep python3.11
+: 1719927344:0;which python3.11
+: 1719927344:0;sudo rm /home/edenedfsls/anaconda3/bin/python3.11
+: 1719927344:0;cd
+: 1719927344:0;ls -al | anaconda
+: 1719927344:0;ls -al
+: 1719927344:0;ls -al | anaconda3
+: 1719927344:0;cd ..
+: 1719927344:0;cd /home/edenedfsls/anaconda3/bin/
+: 1719927344:0;ls -al | python
+: 1719927344:0;ls-al
+: 1719927344:0;ls -al
+: 1719927344:0;ls -al | python
+: 1719927344:0;apt list --installed | grep python3.11
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ..
+: 1719927344:0;sudo rm -rf anaconda3
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;chmod +x Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;./Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;cd ~/
+: 1719927344:0;ls -al
+: 1719927344:0;ls -al | anaconda3
+: 1719927344:0;rm -rf anaconda3
+: 1719927344:0;ls -al | anaconda3
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;./Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;python
+: 1719927344:0;conda activate base
+: 1719927344:0;sudo thunar
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;python
+: 1719927344:0;conda activate
+: 1719927344:0;conda activate base
+: 1719927344:0;sudo nano ~/.zshrc
+: 1719927344:0;code ~/.zshrc
+: 1719927344:0;code ~/.bashrc
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;source ~/.bashrc
+: 1719927344:0;q
+: 1719927344:0;:q!
+: 1719927344:0;code ~/.zshrc
+: 1719927344:0;source ~/.zshrc
+: 1719927344:0;rm -rf python
+: 1719927344:0;rm -rf python3
+: 1719927344:0;rm -rf python3.1
+: 1719927344:0;conda init zsh
+: 1719927344:0;which conda
+: 1719927344:0;conda activate base
+: 1719927344:0;ls /home/edenedfsls/anaconda3/bin | grep python\
+
+: 1719927344:0;sudo rm -rf anaconda3
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;./Anaconda3-2024.02-1-Linux-x86_64.sh
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;python
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;wsl --install
+: 1719927344:0;sudo apt install wsl
+: 1719927344:0;sudo apt-get install \\
+        ca-certificates \\
+        curl \\
+        gnupg \\
+        lsb-release
+: 1719927344:0;curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+: 1719927344:0;echo \\
+        "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \\
+        $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+: 1719927344:0;sudo apt update -y
+: 1719927344:0;sudo apt install docker-ce docker-ce-cli containerd.io -y
+: 1719927344:0;sudo systemctl enable docker
+: 1719927344:0;sudo docker run hello-world
+: 1719927344:0;sudo usermod -aG docker $USER
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt-add-repository ppa:remmina-ppa-team/remmina-next
+: 1719927344:0;sudo apt update -y
+: 1719927344:0;sudo apt install remmina remmina-plugin-rdp remmina-plugin-secret
+: 1719927344:0;sudo apt install cpu-checker -y\
+    sudo kvm-ok
+: 1719927344:0;mkdir ~/windows-docker
+: 1719927344:0;cd ~/windows-docker/
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;sudo apt  install docker-compose
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;ls- al
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;ls -al
+: 1719927344:0;sudo apt install docker-compose -y
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;cd windows-docker
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;cd windows-docker
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;cd windows-docker
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;sudo docker ps -a
+: 1719927344:0;sudo docker rm 918012d9cd1e
+: 1719927344:0;sudo docker stop 918012d9cd1e
+: 1719927344:0;sudo docker rm 918012d9cd1e
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;sudo docker ps -a
+: 1719927344:0;sudo docker stop 5bfa2db60c3d
+: 1719927344:0;sudo docker rm 5bfa2db60c3d
+: 1719927344:0;pdfunite SENAI_certificado.pdf SENAI_historico_escolar.pdf UNIFICADO_CERTIFICADO_E_HISTORICO.pdf
+: 1719927344:0;pdfunite contratacao_luiz_fernando_frois_r0 contratacao_luiz_fernando_frois_r1 ultima_alteracao_esocial_luiz_fernando_frois.pdf
+: 1719927344:0;pdfunite contratacao_luiz_fernando_frois_r0 contratacao_luiz_fernando_frois_r1 ultima_alteracao_esocial_luiz_fernando_frois.pdf arquivo_unido.pdf
+: 1719927344:0;pdfunite contratacao_luiz_fernando_frois_r0 contratacao_luiz_fernando_frois_r1 arquivo_unido.pdf
+: 1719927344:0;pdfunite contratacao_luiz_fernando_frois_r0.pdf contratacao_luiz_fernando_frois_r1.pdf ultima_alteracao_esocial_luiz_fernando_frois.pdf ARQUIVO_UNIDO_LUIZ_FERNANDO_FROIS.pdf
+: 1719927344:0;pdfunite ASO_Luiz\ Fernando\ Frois.pdf contratacao_luiz_fernando_frois_r0.pdf contratacao_luiz_fernando_frois_r1.pdf ultima_alteracao_esocial_luiz_fernando_frois.pdf ARQUIVO_UNIDO_LUIZ_FERNANDO_FROIS.pdf
+: 1719927344:0;docker ps -a
+: 1719927344:0;cd windows-docker
+: 1719927344:0;sudo nano docker-compose.yml
+: 1719927344:0;sudo docker-compose up -d
+: 1719927344:0;sudo docker ps -a
+: 1719927344:0;docker stop 90432f6bf339
+: 1719927344:0;docker inspect --format='{{ .HostConfig.RestartPolicy }}' 90432f6bf339
+: 1719927344:0;docker update --restart=no 90432f6bf339
+: 1719927344:0;docker inspect --format='{{ .HostConfig.RestartPolicy }}' 90432f6bf339
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;speedtest-cli --share
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;rclone config
+: 1719927344:0;sudo dpkg -i code_1.88.1-1712771838_amd64.deb
+: 1719927344:0;sudo kill 21397
+: 1719927344:0;sudo dpkg -i code_1.88.1-1712771838_amd64.deb
+: 1719927344:0;cd k_means_monography_python
+: 1719927344:0;git status
+: 1719927344:0;git add -u
+: 1719927344:0;git status
+: 1719927344:0;git commit -m "Ajustado detalhes do README.ipynb, .md e .py"
+: 1719927344:0;git push origin HEAD:main
+: 1719927344:0;cd ..
+: 1719927344:0;cd k_means_python
+: 1719927344:0;git status
+: 1719927344:0;git add -u
+: 1719927344:0;git commit -m "Ajustado detalhes do README.ipynb, .md e .py"
+: 1719927344:0;git push origin HEAD:main
+: 1719927344:0;python3.8 -m pip install nbconvert
+: 1719927344:0;/usr/local/bin/python3.8 -m pip install --upgrade pip
+: 1719927344:0;git fetch
+: 1719927344:0;git status
+: 1719927344:0;git add .
+: 1719927344:0;git status
+: 1719927344:0;git commit -m "Realizado os ajustes no arquivo README.ipynb, .md, .py"
+: 1719927344:0;git push
+: 1719927344:0;git pull
+: 1719927344:0;git push
+: 1719927344:0;git status
+: 1719927344:0;cd ..
+: 1719927344:0;git clone https://github.com/dylanjcastillo/shell-genie.git
+: 1719927344:0;cd videos/os
+: 1719927344:0;cd videos/
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=q_l5430SZLA&pp=ygULc2hlbGwgZ2VuaWU%3D
+: 1719927344:0;lsblk
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=tQY5IHOnK9E
+: 1719927344:0;sudo apt install btrfs-progs -y
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;ls -al
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean -y\
+sudo apt autoremove -y\
+sudo apt update -y\
+sudo apt autoremove -y\
+sudo apt autoclean -y\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo apt install cheese -y
+: 1719927344:0;su
+: 1719927344:0;su -i
+: 1719927344:0;su
+: 1719927344:0;sudo thunar
+: 1719927344:0;cd /
+: 1719927344:0;ls -al
+: 1719927344:0;cd timeshift
+: 1719927344:0;ls -al
+: 1719927344:0;rm -rf s*
+: 1719927344:0;sudo rm -rf s*
+: 1719927344:0;cd /
+: 1719927344:0;cd timeshift
+: 1719927344:0;ls -al
+: 1719927344:0;sudo rm -rf s*
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo thunar
+: 1719927344:0;lsblk
+: 1719927344:0;df -h
+: 1719927344:0;cd /
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo rm -rf timeshift
+: 1719927344:0;cd
+: 1719927344:0;cd /home/
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo rm -rf timeshift
+: 1719927344:0;sudo systemctl reboot]
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd /home/
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo rm -rf timeshift
+: 1719927344:0;cd /
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo thunar
+: 1719927344:0;rm -rf /timeshift
+: 1719927344:0;sudo rm -rf timeshift
+: 1719927344:0;lsblk
+: 1719927344:0;df -h
+: 1719927344:0;btop
+: 1719927344:0;cd /home/
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo rm -rf timeshift
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd /
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;cd timeshift
+: 1719927344:0;ls -al
+: 1719927344:0;cd ..
+: 1719927344:0;sudo rm -rf timeshift/*
+: 1719927344:0;cd timeshift
+: 1719927344:0;ls -al
+: 1719927344:0;cd /home/timeshift
+: 1719927344:0;ls -al
+: 1719927344:0;cd /home/
+: 1719927344:0;ls -al | grep timeshift
+: 1719927344:0;sudo rm -rf timeshift/*
+: 1719927344:0;btop
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Documents
+: 1719927344:0;ls -al
+: 1719927344:0;cd /Downloads
+: 1719927344:0;cd Downloads
+: 1719927344:0;cd unix
+: 1719927344:0;cd ubuntu
+: 1719927344:0;cd google
+: 1719927344:0;cd chrome
+: 1719927344:0;ls -al
+: 1719927344:0;git init
+: 1719927344:0;git remote add origin git@github.com:edendenis/readme_set_up_install_use_google_chrome_on_linux_ubuntu.git
+: 1719927344:0;git init
+: 1719927344:0;git status
+: 1719927344:0;git commit -m "First commit for branch main"
+: 1719927344:0;git add -u
+: 1719927344:0;git status
+: 1719927344:0;git add .
+: 1719927344:0;git status
+: 1719927344:0;git push origin HEAD:main
+: 1719927344:0;git push
+: 1719927344:0;git status
+: 1719927344:0;git add .
+: 1719927344:0;git commit -m "Fixing files"
+: 1719927344:0;git push
+: 1719927344:0;python3.8 convert_ipynb_to_md_and_py.py
+: 1719927344:0;ls -al | grep convert
+: 1719927344:0;code convert_ipynb_to_md_and_py.ipynb
+: 1719927344:0;python3.8 convert_ipynb_to_md_and_py.py
+: 1719927344:0;ls- al | greap convert
+: 1719927344:0;ls -al | greap convert
+: 1719927344:0;ls -al | gre]p convert
+: 1719927344:0;ls -al | grep convert
+: 1719927344:0;python3.8 convert_ipynb_to_md_and_py.py
+: 1719927344:0;git status
+: 1719927344:0;git add .
+: 1719927344:0;git commit -m "Ajusted file README"
+: 1719927344:0;git push
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo tar -xf rpa-1.2.9-lite-x86-64.tar.gz
+: 1719927344:0;cd RPA-1.2.9-lite-linux-x86-64
+: 1719927344:0;ls -al
+: 1719927344:0;cd ..
+: 1719927344:0;sudo rm -rf RPA-1.2.9-lite-
+: 1719927344:0;sudo rm -rf RPA-1.2.9-lite-*.gz
+: 1719927344:0;sudo rm -rf RPA-1.2.9-lite-linux-x86-64/
+: 1719927344:0;ls -al
+: 1719927344:0;sudo rm -rf rpa-1.2.9-lite-x86-64.tar.gz
+: 1719927344:0;sudo rm -rf .
+: 1719927344:0;sudo rm -rf *
+: 1719927344:0;ls -al
+: 1719927344:0;cd trash:///
+: 1719927344:0;sudo rm -rf /home/edenedfsls/.local/share/Trash/*
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;ls -al
+: 1719927344:0;sudo tar -xf rpa-2.3.2-standard-demo-x86-64.tar.gz
+: 1719927344:0;cd RPA-2.3.2-standard-linux-x86-64
+: 1719927344:0;ls -al
+: 1719927344:0;sudo cp libcad.so /usr/lib\
+    \
+    sudo cp libconfig++.so /usr/lib\
+    sudo cp libconfig++.so.9 /usr/lib\
+    sudo cp libconfig++.so.9.0.4 /usr/lib\
+\
+    sudo cp libdesign.so /usr/lib\
+\
+    sudo cp libflow.so /usr/lib\
+    \
+    sudo cp libmath.so /usr/lib\
+    \
+    sudo cp libnozzle.so /usr/lib\
+    \
+    sudo cp libqwt.so /usr/lib\
+    sudo cp libqwt.so.6 /usr/lib\
+    sudo cp libqwt.so.6.1 /usr/lib\
+    sudo cp libqwt.so.6.1.2 /usr/lib\
+    \
+    sudo cp librpa.so /usr/lib\
+    sudo cp librpas.so /usr/lib\
+    sudo cp librpas.so.1 /usr/lib\
+    sudo cp librpas.so.1.0 /usr/lib\
+    sudo cp librpas.so.1.0.0 /usr/lib\
+\
+    sudo cp libthermo.so /usr/lib\
+    \
+    sudo cp libutils.so /usr/lib
+: 1719927344:0;./RPA
+: 1719927344:0;ls -al
+: 1719927344:0;./RPA.exe
+: 1719927344:0;sudo add-apt-repository ppa:ubuntuhandbook1/ppa
+: 1719927344:0;sudo apt update
+: 1719927344:0;sudo apt-get install qt4-dev-tools libqt4-dev libqtcore4 libqtgui4
+: 1719927344:0;sudo apt-get install qt4-dev-tools libqt4-dev libqtcore4 libqtgui4 -y
+: 1719927344:0;sudo cp libcad.so /usr/lib\
+    \
+    sudo cp libconfig++.so /usr/lib\
+    sudo cp libconfig++.so.9 /usr/lib\
+    sudo cp libconfig++.so.9.0.4 /usr/lib\
+\
+    sudo cp libdesign.so /usr/lib\
+\
+    sudo cp libflow.so /usr/lib\
+    \
+    sudo cp libmath.so /usr/lib\
+    \
+    sudo cp libnozzle.so /usr/lib\
+    \
+    sudo cp libqwt.so /usr/lib\
+    sudo cp libqwt.so.6 /usr/lib\
+    sudo cp libqwt.so.6.1 /usr/lib\
+    sudo cp libqwt.so.6.1.2 /usr/lib\
+    \
+    sudo cp librpa.so /usr/lib\
+    sudo cp librpas.so /usr/lib\
+    sudo cp librpas.so.1 /usr/lib\
+    sudo cp librpas.so.1.0 /usr/lib\
+    sudo cp librpas.so.1.0.0 /usr/lib\
+\
+    sudo cp libthermo.so /usr/lib\
+    \
+    sudo cp libutils.so /usr/lib
+: 1719927344:0;sudo chmod +x RPA rpac rpas
+: 1719927344:0;./RPA
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;sudo rm -rf RPA-2.3.2-standard-linux-x86-64
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;sudo tar -xf rpa-2.3.2-standard-demo-x86-64-r.tar.gz
+: 1719927344:0;cd RPA-2.3.2-standard-linux-x86-64
+: 1719927344:0;sudo cp -r libcad.so /usr/lib  # 1\
+    \
+    sudo cp -r libconfig++.so /usr/lib  # 2\
+    sudo cp -r libconfig++.so.9 /usr/lib  # 3\
+    sudo cp -r libconfig++.so.9.0.4 /usr/lib  # 4\
+\
+    sudo cp -r libdesign.so /usr/lib  # 5\
+\
+    sudo cp -r libflow.so /usr/lib  # 6\
+    \
+    sudo cp -r libmath.so /usr/lib  # 7\
+    \
+    sudo cp -r libnozzle.so /usr/lib  # 8\
+    \
+    sudo cp -r libqwt.so /usr/lib  # 9\
+    sudo cp -r libqwt.so.6 /usr/lib  # 10\
+    sudo cp -r libqwt.so.6.1 /usr/lib  # 11\
+    sudo cp -r libqwt.so.6.1.2 /usr/lib  # 12\
+    sudo cp -r libQtScript.so.4.7.0 /usr/lib  # 13 \
+    sudo cp -r libQtCore.so.4 /usr/lib  # 14\
+    sudo cp -r libQtCore.so.4.7.0 /usr/lib  # 15 \
+    sudo cp -r libQtGui.so.4 /usr/lib  # 16\
+    sudo cp -r libQtGui.so.4.7.0 /usr/lib  # 17 \
+    sudo cp -r libQtScript.so.4 /usr/lib  # 18\
+\
+    sudo cp -r librpa.so /usr/lib  # 19\
+    sudo cp -r librpas.so /usr/lib  # 20\
+    sudo cp -r librpas.so.1 /usr/lib  # 21\
+    sudo cp -r librpas.so.1.0 /usr/lib  # 22\
+    sudo cp -r librpas.so.1.0.0 /usr/lib  # 23\
+\
+    sudo cp -r libthermo.so /usr/lib  # 24\
+    \
+    sudo cp -r libutils.so /usr/lib  # 25
+: 1719927344:0;./RPA
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;sudo rm -rf RPA-2.3.2-standard-linux-x86-64
+: 1719927344:0;sudo tar -xf rpa-2.3.2-standard-demo-x86-64-r.tar.gz
+: 1719927344:0;cd RPA-2.3.2-standard-linux-x86-64
+: 1719927344:0;./RPA
+: 1719927344:0;a="OlÃ�,\
+\
+Estou em período de férias, logo em breve estarei de volta Ã�s atividades. Sendo assim, peço que, caso não seja nada urgente, aguarde, pois irei respondê-lo assim que possível. Se não, tente contato a partir do número de celular abaixo.\
+\
+At.te,\
+\
+--\
+"
+: 1719927344:0;trans -brief pt-BR:en $a
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd /home/edenedfsls/Documents/LIBRARY/EXATAS/COMPUTACAO/PYTHON/videos/
+: 1719927344:0;yt-dlp https://www.youtube.com/watch?v=WJkTGog_aK0
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cd ~/Downloads
+: 1719927344:0;sudo dpkg -i docker-desktop-4.30.0-amd64.deb
+: 1719927344:0;a="Installation with Default Configuration\
+If Ollama is on your computer, use this command:\
+\
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main\
+If Ollama is on a Different Server, use this command:\
+\
+To connect to Ollama on another server, change the OLLAMA_BASE_URL to the server's URL:\
+\
+docker run -d -p 3000:8080 -e OLLAMA_BASE_URL=https://example.com -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main\
+To run Open WebUI with Nvidia GPU support, use this command:\
+docker run -d -p 3000:8080 --gpus all --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:cuda"
+: 1719927344:0;texto_sem_mais_quebras=$(echo "$a" | sed '/^$/N;/^\n$/D')
+: 1719927344:0;trans -brief en:pt-BR $texto_sem_mais_quebras
+: 1719927344:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama_DRAFT/
+: 1719927344:0;git clone https://github.com/open-webui/open-webui.git
+: 1719927344:0;a="The latest Ubuntu 24.04 LTS is not yet supported. Docker Desktop will fail to start. Due to a change in how the latest Ubuntu release restricts the unprivileged namespaces, sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0 needs to be run at least once. Refer to the Ubuntu Blog for more details."
+: 1719927344:0;texto_sem_mais_quebras=$(echo "$a" | sed '/Ń�/N;/^\n$/D')
+: 1719927344:0;trans -brief en:pt-BR $a
+: 1719927344:0;trans -brief en:pt-BR "$texto_sem_mais_quebras"
+: 1719927344:0;sudo sysctl -w kernel.apparmor_restrict_unprivileged_usernsu003d0
+: 1719927344:0;sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
+: 1719927344:0;sudo apt install gnome-terminal
+: 1719927344:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1719927344:0;which ollama
+: 1719927344:0;whereis ollama
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cp /usr/local/bin/ollama /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa
+: 1719927344:0;cp -r /usr/share/ollama /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa
+: 1719927344:0;mkdir /usr/local/bin/ollama /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;curl -fsSL https://ollama.com/install.sh | sh
+: 1719927344:0;whereis ollama
+: 1719927344:0;cd /usr/local/bin/ollama
+: 1719927344:0;sudo cd /usr/local/bin/ollama
+: 1719927344:0;sudo cd /usr/share/ollama
+: 1719927344:0;cd /usr/share/ollama
+: 1719927344:0;sudo cd /usr/share/ollama
+: 1719927344:0;sudo su
+: 1719927344:0;whereis ollama
+: 1719927344:0;mkdir /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;umount -l /home/$USER/Documents
+: 1719927344:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1719927344:0;sudo systemctl reboot
+: 1719927344:0;cp -r /usr/share/ollama /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;sudo cp -r /usr/share/ollama /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;sudo rm -rd /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;sudo rm -rf /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2/
+: 1719927344:0;sudo rm -rf ollama
+: 1719927344:0;sudo chown edenedfsls:edenedfsls ollama
+: 1719927344:0;cd /home/edenedfsls/Desktop/ollama/.ollama/
+: 1719927344:0;sudo chown edenedfsls:edenedfsls id_ed25519
+: 1719927344:0;cd models
+: 1719927344:0;sudo chown edenedfsls:edenedfsls blobs
+: 1719927344:0;cd ~/Desktop
+: 1719927344:0;sudo chown ollama
+: 1719927344:0;sudo chown edenedfsls:edenedfsls ollama
+: 1719927344:0;sudo chown edenedfsls:edenedfsls /home/edenedfsls/Documents/Downloads/unix/ubuntu/ollama/arquivos_do_programa2
+: 1719927344:0;cd ~/Desktop
+: 1719927344:0;sudo rm -rf ollama
+: 1717614925:0;bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+: 1717615042:0;sudo nano ~/.zshrc
+: 1719927344:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1717615117:0;whereis zinit
+: 1717615177:0;mkdir ~/.fonts
+: 1717615185:0;wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip'
+: 1717615319:0;unzip ~/.fonts/BitstreamVeraSansMono.zip -d ~/.fonts
+: 1717615333:0;sudo apt install fonts-firacode -y
+: 1717615375:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/
+: 1717615387:0;sudo rm -rf zinit
+: 1717615405:0;ls -al | grep zinit
+: 1717615410:0;sudo rm -rf zinit
+: 1717615439:0;sudo apt install fonts-firacode -y
+: 1717615625:0;sudo systemctl reboot
+: 1717616018:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1717616700:0;sudo systemctl reboot
+: 1717617342:0;btop
+: 1717617364:0;sudo systemctl reboot
+: 1719927323:0;omz update
+: 1719927367:0;echo $XDG_SESSION_DESKTOP\
+
+: 1719927387:0;xfconf-query -c xsettings -p /Net/ThemeName\
+
+: 1719927393:0;xfconf-query -c xfwm4 -p /general/theme\
+
+: 1719927399:0;xfconf-query -c xsettings -p /Net/IconThemeName\
+
+: 1720098168:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720098865:0;whereis zinit
+: 1720099482:0;bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+: 1720099839:0;sudo systemctl reboot
+: 1720100790:0;umount -l /home/$USER/Documents
+: 1720100795:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1720101007:0;whereis powerlevel10k
+: 1720101120:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/
+: 1720101143:0;git clone git@github.com:romkatv/powerlevel10k.git
+: 1720101186:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k\
+    echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+: 1720101222:0;ls -al | grep power
+: 1720103944:0;sudo systemctl reboot
+: 1720104527:0;df -h
+: 1720104624:0;sudo apt remove brave-browser
+: 1720104982:0;df -h
+: 1720105384:0;cd /home/edenedfsls/.cache/
+: 1720105386:0;ls -al
+: 1720105475:0;cd ..
+: 1720105478:0;rm -rf ~/.cache/*\
+
+: 1720105518:0;df -h
+: 1720110873:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720111168:0;speedtest-cli --share
+: 1720111245:0;sudo dpkg --configure -a
+: 1720111572:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720117489:0;sudo apt install zsh -y
+: 1720117505:0;sudo apt install curl git -y
+: 1720117521:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1720117616:0;rm -r /home/edenedfsls/.oh-my-zsh
+: 1720117697:0;sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+: 1720117739:0;bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
+: 1720117757:0;sudo nano ~/.zshrc
+: 1720117816:0;mkdir ~/.fonts
+: 1720117824:0;wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip'
+: 1720117841:0;unzip ~/.fonts/BitstreamVeraSansMono.zip -d ~/.fonts
+: 1720117868:0;sudo apt install fonts-firacode -y
+: 1720118087:0;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+: 1720118137:0;echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
+: 1720118151:0;sudo nano ~/.zshrc
+: 1720118162:0;code ~/.zshrc
+: 1720118367:0;
+: 1720118367:0;
+: 1720118367:0;
+: 1720118598:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720119322:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/commands_and_settings/change_os_appearance_OLD_DRAFT/
+: 1720119325:0;python3.8 convert_ipynb_to_md_and_py.py
+: 1720120684:0;sudo systemctl reboot
+: 1720121564:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/commands_and_settings/
+: 1720121586:0;git clone git@github.com:romkatv/change_os_appearance.git
+: 1720121643:0;git clone git@github.com:edendenis/change_os_appearance.git
+: 1720121688:0;git clone https://github.com/edendenis/change_os_appearance.git
+: 1720122879:0;(type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \\
+&& sudo mkdir -p -m 755 /etc/apt/keyrings \\
+&& wget -qO- https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo tee /etc/apt/keyrings/githubcli-archive-keyring.gpg > /dev/null \\
+&& sudo chmod go+r /etc/apt/keyrings/githubcli-archive-keyring.gpg \\
+&& echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null \\
+&& sudo apt update \\
+&& sudo apt install gh -y
+: 1720123023:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720123265:0;gh auth login
+: 1720177786:0;sudo systemctl reboot
+: 1720178410:0;df -h
+: 1720178443:0;sudo thunar
+: 1720178469:0;df -h
+: 1720178510:0;cd /home/edenedfsls/Downloads/RPA-2.3.2-standard-linux-x86-64/
+: 1720178516:0;./RPA
+: 1720178571:0;cd ~
+: 1720178595:0;sudo chown edenedfsls:edenedfsls ollama
+: 1720178701:0;whereis fast-syntax-highlighting
+: 1720613938:0;sudo systemctl reboot
+: 1720614704:0;df -h
+: 1720614744:0;cd /home/edenedfsls/Downloads/RPA-2.3.2-standard-linux-x86-64/
+: 1720614754:0;./RPA
+: 1720614787:0;cd /home/edenedfsls/Downloads/
+: 1720614797:0;rm -rf RPA-2.3.2-standard-linux-x86-64
+: 1720614884:0;sudo rm -rf RPA-2.3.2-standard-linux-x86-64
+: 1720614894:0;df -h
+: 1720616603:0;sudo thunar
+: 1720616663:0;df -h
+: 1720616809:0;sudo systemctl reboot
+: 1720617481:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720784335:0;umount -l /home/$USER/Documents
+: 1720784414:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
+: 1720784634:0;cd /home/edenedfsls/Documents/Downloads/unix/ubuntu/commands_and_settings/
+: 1720784645:0;python3.8 copy_files_to_non_empty_dirs.py
+: 1720784666:0;code copy_files_to_non_empty_dirs.py
+: 1720785995:0;cd /home/edenedfsls/Documents/Downloads/unix/
+: 1720786403:0;ranger
+: 1720790882:0;sudo apt clean\
+sudo apt autoclean\
+sudo apt autoremove -y\
+sudo apt update\
+sudo apt --fix-broken install\
+sudo apt clean\
+sudo apt list --upgradable\
+sudo apt full-upgrade -y
+: 1720791402:0;cd /home/edenedfsls/Documents/Downloads/unix/
+: 1720791408:0;python3.8 copy_files_to_non_empty_dirs.py
+: 1720793240:0;snap list
+: 1720793275:0;sudo snap remove pycharm-community\
+
+: 1721046106:0;sudo systemctl reboot
+: 1721046144:0;*
+: 1721046480:0;sudo systemctl reboot
+: 1721049089:0;which ohmyzsh
+: 1721049093:0;which oh-my-zsh
+: 1721049099:0;whereis oh-my-zsh
+: 1721049108:0;whereis ohmyzsh
+: 1721049121:0;whereis zinit
+: 1721049129:0;which zinit
+: 1721052485:0;sudo systemctl reboot
+: 1721053025:0;umount -l /home/$USER/Documents
+: 1721053028:0;rclone mount remote: /home/$USER/Documents --vfs-cache-mode full --allow-non-empty -vv
