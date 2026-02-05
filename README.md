@@ -59,7 +59,11 @@ O `fast-syntax-highlighting` é um _plugin_ para o `shell` `fish` que oferece re
 
 Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Certifique-se de que seu sistema esteja limpo e atualizado.
 
@@ -107,7 +111,9 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu`, você pode seguir
 
 Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Primeiro, instale o `oh-my-zsh` com o comando:
+1. **Primeiro, instalar o `oh-my-zsh` com o comando**:
+
+    **ATENÇÃO**: É necessário instalar o `zsh` antes do `oh-my-zsh`:
 
     ```bash
     sudo apt install zsh -y
@@ -128,13 +134,13 @@ Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você 
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/
+    ls -alF /home/edenedfsls/ | grep oh-my-zsh
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/ /home/edenedfsls/
+    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/.oh-my-zsh/* $HOME/.oh-my-zsh/
     ```
     
 
@@ -146,32 +152,22 @@ Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você 
     chsh -s $(which zsh)
     ```
 
-    - Você precisará fazer _logout_ e _login_ novamente para que a mudança tenha efeito.
-
-2. **Criar o Arquivo .`zshrc`:** Se, por algum motivo, o arquivo `.zshrc` **NÃO** for criado automaticamente, você pode criá-lo manualmente:
+2. Você precisará fazer _logout_ e _login_ novamente para que a mudança tenha efeito:
 
     ```bash
-    sudo nano ~/.zshrc
+    sudo reboot
     ```
-
-    - Adicione as configurações que deseja e salve o arquivo.
-
-3. **Aplicar as alterações:** Para que as mudanças tenham efeito, você precisa recarregar o arquivo de configuração. Isso pode ser feito com o comando:
-
-    ```bash
-    source ~/.zshrc
-    ```
-
-    Ou simplesmente feche e reabra o `Terminal Emulator`.
-
-Esses passos devem ajudar a configurar o `zsh` com o tema e os plugins desejados. Se tiver dificuldades com algum plugin específico, pode ser útil consultar a documentação do `Oh My Zsh` ou procurar ajuda específica para aquele _plugin_.
 
 
 ### 1.3 Código completo para configurar/instalar/usar
 
 Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Digite o seguinte comando e pressione `Enter`:
 
@@ -187,6 +183,8 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     sudo apt install zsh -y
     sudo apt install curl git -y
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    chsh -s $(which zsh)
+    sudo reboot
     ```
 
 
@@ -201,13 +199,13 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/.local/share/
+    ls -alF /home/edenedfsls/.local/share/ | grep zinit
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/ /home/edenedfsls/.local/share/
+    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/* $HOME/.local/share/zinit/
     ```
     
 2. **Abrir o arquivo `~/.zshrc`**:
@@ -216,49 +214,37 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     sudo nano ~/.zshrc
     ```
 
-3. **Editar o arquivo `~/.zshrc`**:
+3. **Editar o arquivo `~/.zshrc`**: Execute o comando abaixo para inserir as linhas no final do arquivo `~/.zshrc`:
 
     ```bash
-    # Adicionar no final do .zshrc
-    zinit light zdharma-continuum/fast-syntax-highlighting
-    zinit light zsh-users/zsh-autosuggestions
-    zinit light zsh-users/zsh-completions
+    echo -e "\n# Plugins via Zinit" >> ~/.zshrc
+    echo "zinit light zdharma-continuum/fast-syntax-highlighting" >> ~/.zshrc
+    echo "zinit light zsh-users/zsh-autosuggestions" >> ~/.zshrc
+    echo "zinit light zsh-users/zsh-completions" >> ~/.zshrc
     ```
 
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/.local/share/
+    ls -alF /home/edenedfsls/.local/share/zinit/plugins/ 
     ```
 
     Segue a lista de arquivos que a pasta deve possuir:
 
     - `_local---zinit`
-    
     - `zdharma-continuum---fast-syntax-highlighting`
-    
     - `zdharma-continuum---zinit-annex-as-monitor`
-    
     - `zdharma-continuum---zinit-annex-bin-gem-node`
-    
     - `zdharma-continuum---zinit-annex-patch-dl`
-    
     - `zdharma-continuum---zinit-annex-rust`
-    
     - `zdharma---fast-syntax-highlighting`
-    
     - `zsh-users---zsh-autosuggestions`
-    
     - `zsh-users---zsh-completions`
 
-    Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
+    Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório, caso os arquivos não existam na pasta:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/zinit/ /home/edenedfsls/.local/share/zinit/
-
-    sudo cp -R "/home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/zdharma-continuum---fast-syntax-highlighting/" /home/edenedfsls/.local/share/zinit/plugins/
-
-    sudo cp -R "/home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/zdharma---fast-syntax-highlighting/" /home/edenedfsls/.local/share/zinit/plugins/
+    cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/ $HOME/.local/share/zinit/
     ```
 
 4. Fechar o `Terminal Emulator` e abrir novamente
@@ -287,13 +273,13 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/
+    ls -alF ~/.fonts | grep Bitstream
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.fonts/ /home/edenedfsls/.fonts/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.fonts/ $HOME/.fonts/
     ``` 
 
 4. **Instalar a fonte `firacode`**:
@@ -322,7 +308,8 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/.oh-my-zsh/themes/
+    ls -alF $HOME/.oh-my-zsh/themes/
+    ls -alF ~/ | grep powerlevel10k
     ```
 
     1.1 Copiar a pasta também para o diretório:
@@ -334,8 +321,8 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/.oh-my-zsh/themes/ /home/edenedfsls/
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/powerlevel10k/ /home/edenedfsls/
+    sudo cp -R /home/edenedfsls/.oh-my-zsh/themes/* /home/edenedfsls/.oh-my-zsh/themes/
+    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/powerlevel10k/* /home/edenedfsls/powerlevel10k/
     ```
 
 2. **Inserir o `powerlever10k` no arquivo de configuração do `zshrc`**:
@@ -366,11 +353,8 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     Segue a lista de arquivos a serem copiados:
 
     - `.p10k.zsh`
-    
     - `.zsh_history`
-    
     - `.zshrc.pre-oh-my-zsh`
-    
     - `.zshrc`
        
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
@@ -395,11 +379,8 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
 
     # COPIAR OS NOVOS ARQUIVOS:
     sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.p10k.zsh /home/edenedfsls/
-
     sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zsh_history /home/edenedfsls/
-
     sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc.pre-oh-my-zsh /home/edenedfsls/
-
     sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc /home/edenedfsls/
     ```
 
@@ -439,7 +420,7 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
 
 17. Em `Prompt Spacing` escolha a opção:  `(2) Sparse.`
 
-18. Em `Icons` escolha a opção:  `(1) Few icons.`
+18. Em `Icons` escolha a opção:  `(2) Many icons.`
 
 19. Em `Prompt Flow` escolha a opção:  `(2) Fluent.`
 
@@ -534,7 +515,11 @@ Para adicionar o ícone da cobra (`Python`) no _prompt_ do tema `Powerlevel10k` 
     source ~/.zshrc
     ```
 
-5. Reinicie o computador.
+5. Reinicie o computador:
+
+    ```bash
+    sudo reboot
+    ```
 
 Se o ícone da cobra não aparecer após essas configurações, certifique-se de que seu `Terminal Emulator` suporta emojis e que as configurações do `Powerlevel10k` estão corretas para exibir ícones.
 
@@ -543,7 +528,11 @@ Se o ícone da cobra não aparecer após essas configurações, certifique-se de
 
 Para desinstalar completamente o `oh-my-zsh` no `Linux Ubuntu`, você precisa seguir algumas etapas. Primeiro, é importante remover o pacote `oh-my-zsh` em si e, em seguida, alterar o `shell` padrão para o usuário de volta ao `shell` anterior (geralmente `bash`), caso o `oh-my-zsh` tenha sido configurado como o `shell` padrão. Aqui estão as etapas detalhadas:
 
-1. **Abra o `Terminal Emulator`:** Você pode fazer isso pressionando no `Ubuntu`: `Ctrl + Alt + T`
+1. **Abra o `Terminal Emulator`:** Você pode fazer isso pressionando no `Linux Ubuntu`:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Verifique se o `oh-my-zsh` é o `shell` atual: Antes de desinstalar o `oh-my-zsh`, é uma boa ideia verificar se ele está configurado como o `shell` padrão para o seu usuário. Execute:
 
@@ -577,8 +566,8 @@ Para desinstalar completamente o `oh-my-zsh` no `Linux Ubuntu`, você precisa se
 
 9. **Opcional - Remova manualmente qualquer arquivo de configuração residuais:** Se você quiser garantir que todas as configurações personalizadas do `zsh` sejam removidas, pode precisar excluí-las manualmente. Arquivos de configuração do `zsh` geralmente estão localizados em seu diretório home, como `.zshrc`. Para removê-los, use:
 
-    ```
-    rm ~/.zshrc
+    ```bash
+    rm -rf ~/.zshrc
     ```
 
     E qualquer outro arquivo de configuração do `zsh` que você possa ter criado ou modificado.
@@ -587,7 +576,7 @@ Lembre-se de que esses comandos podem variar ligeiramente dependendo da sua conf
 
 ## Referências
 
-[1] OPENAI. ***Configurando `Terminal Emulator` no ubuntu.*** Disponível em: <https://chat.openai.com/c/1ecf460a-8fee-4048-9a29-baae6a494efd> (texto adaptado). ChatGPT. Acessado em: 07/12/2023 09:07.
+[1] OPENAI. ***Instalar o `oh_my_zsh` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/1ecf460a-8fee-4048-9a29-baae6a494efd> (texto adaptado). ChatGPT. Acessado em: 07/12/2023 09:07.
 
 [2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 29/11/2023 09:07.
 
