@@ -637,7 +637,7 @@ Se o ícone da cobra não aparecer após essas configurações, certifique-se de
 
 Para desinstalar completamente o `oh-my-zsh` no `Linux Ubuntu`, você precisa seguir algumas etapas. Primeiro, é importante remover o pacote `oh-my-zsh` em si e, em seguida, alterar o `shell` padrão para o usuário de volta ao `shell` anterior (geralmente `bash`), caso o `oh-my-zsh` tenha sido configurado como o `shell` padrão. Aqui estão as etapas detalhadas:
 
-1. **Abra o `Terminal Emulator`:** Você pode fazer isso pressionando no `Linux Ubuntu`:
+1. **Abrir o `Terminal Emulator`:** Você pode fazer isso pressionando no `Linux Ubuntu`:
 
     ```bash
     Ctrl + Alt + T
@@ -685,10 +685,10 @@ Lembre-se de que esses comandos podem variar ligeiramente dependendo da sua conf
 
 ## Referências
 
-[1] OPENAI. ***Instalar o `oh_my_zsh` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/1ecf460a-8fee-4048-9a29-baae6a494efd> (texto adaptado). ChatGPT. Acessado em: 07/12/2023 09:07.
+[1] OPENAI. **Instalar o `oh_my_zsh` no `linux ubuntu` pelo `terminal emulator`.** Disponível em: <https://chat.openai.com/c/1ecf460a-8fee-4048-9a29-baae6a494efd> (texto adaptado). ChatGPT. Acessado em: 07/12/2023 09:07.
 
-[2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 29/11/2023 09:07.
+[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 29/11/2023 09:07.
 
-[3] OPENAI. ***Comandos de manutenção do ubuntu.*** Disponível em: <https://chat.openai.com/c/4a8cfaa2-30d6-474d-821f-7047a6a39830>. ChatGPT. Acessado em: 15/12/2023 08:25.
+[3] OPENAI. **Comandos de manutenção do ubuntu.** Disponível em: <https://chat.openai.com/c/4a8cfaa2-30d6-474d-821f-7047a6a39830>. ChatGPT. Acessado em: 15/12/2023 08:25.
 
-[4] USER: LEO VARGAS. ***Como personalizar o `Terminal Emulator` do linux - mais produtivo e bonito.*** Disponĩvel em: <https://www.youtube.com/watch?v=zqrUlHA8jTA&t=1s>. Acessado em: 05/06/2024 16:26.
+[4] USER: LEO VARGAS. **Como personalizar o `terminal emulator` do `linux` - mais produtivo e bonito.** Disponĩvel em: <https://www.youtube.com/watch?v=zqrUlHA8jTA&t=1s>. Acessado em: 05/06/2024 16:26.
