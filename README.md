@@ -8,7 +8,7 @@ Neste documento estão contidos os principais comandos para configurar/instalar/
 
 _This document contains the main commands for configuring/installing/use `oh-my-zsh` on `Linux Ubuntu`._
 
-## Descrição [2]
+## Descrição
 
 ### `shell`
 
@@ -59,7 +59,7 @@ O `fast-syntax-highlighting` é um _plugin_ para o `shell` `fish` que oferece re
 
 Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu`, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -111,7 +111,13 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu`, você pode seguir
 
 Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você pode seguir estes passos:
 
-1. **Primeiro, instalar o `oh-my-zsh` com o comando**:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. **Primeiro, instalar o `oh-my-zsh` com o comando**:
 
     **ATENÇÃO**: É necessário instalar o `zsh` antes do `oh-my-zsh`:
 
@@ -119,13 +125,13 @@ Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você 
     sudo apt install zsh -y
     ```
 
-2. **Instalar os pacotes `curl` e `git`**:
+3. **Instalar os pacotes `curl` e `git`**:
 
     ```bash
     sudo apt install curl git -y
     ```
 
-3. **Instalar o `oh-my-zsh`**:
+4. **Instalar o `oh-my-zsh`**:
 
     ```bash
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -134,25 +140,31 @@ Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você 
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/ | grep oh-my-zsh
+    ls -alF $HOME/ | grep "oh-my-zsh"
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/.oh-my-zsh/* $HOME/.oh-my-zsh/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/.oh-my-zsh/* $HOME/.oh-my-zsh/
     ```
     
 
 ### 1.2 Configurar o `zsh` como seu `shell` padrão
 
-1. **Configurar o `zsh` como seu `shell` Padrão:** Para configurar o `zsh` como seu `shell` padrão, use (**NÃO** colocar o `sudo`!):
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. **Configurar o `zsh` como seu `shell` Padrão:** Para configurar o `zsh` como seu `shell` padrão, use (**NÃO** colocar o `sudo`!):
 
     ```bash
     chsh -s $(which zsh)
     ```
 
-2. Você precisará fazer _logout_ e _login_ novamente para que a mudança tenha efeito:
+3. Você precisará fazer _logout_ e _login_ novamente para que a mudança tenha efeito:
 
     ```bash
     sudo reboot
@@ -163,7 +175,7 @@ Para configurar/instalar/usar o `oh-my-zsh` em um sistema `Linux Ubuntu`, você 
 
 Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
     Ctrl + Alt + T
@@ -190,7 +202,13 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
 
 ### 2. Configurar/Instalar/Usar o `zinit`
 
-1. **Instalar o `zinit`**:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. **Instalar o `zinit`**:
 
     ```bash
     bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
@@ -199,22 +217,22 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/.local/share/ | grep zinit
+    ls -alF $HOME/.local/share/ | grep "zinit"
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/* $HOME/.local/share/zinit/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/* $HOME/.local/share/zinit/
     ```
     
-2. **Abrir o arquivo `~/.zshrc`**:
+3. **Abrir o arquivo `~/.zshrc`**:
 
     ```bash
     sudo nano ~/.zshrc
     ```
 
-3. **Editar o arquivo `~/.zshrc`**: Execute o comando abaixo para inserir as linhas no final do arquivo `~/.zshrc`:
+4. **Editar o arquivo `~/.zshrc`**: Execute o comando abaixo para inserir as linhas no final do arquivo `~/.zshrc`:
 
     ```bash
     echo -e "\n# Plugins via Zinit" >> ~/.zshrc
@@ -226,7 +244,7 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/.local/share/zinit/plugins/ 
+    ls -alF $HOME/.local/share/zinit/plugins/ 
     ```
 
     Segue a lista de arquivos que a pasta deve possuir:
@@ -244,27 +262,33 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório, caso os arquivos não existam na pasta:
     
     ```bash
-    cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/ $HOME/.local/share/zinit/
+    cp -R $HOME/Documents/Downloads/unix/ubuntu/zsh/oh_my_zsh/docs/zinit/ $HOME/.local/share/zinit/
     ```
 
-4. Fechar o `Terminal Emulator` e abrir novamente
+5. Fechar o `Terminal Emulator` e abrir novamente
 
 
 ### 3. Configurar/Instalar/Usar a fonte `fira code`
 
-1. **Criar diretório**:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. **Criar diretório**:
 
     ```bash
     mkdir ~/.fonts
     ```
 
-2. **Baixar fonte**:
+3. **Baixar fonte**:
 
     ```bash
     wget -P ~/.fonts 'https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/BitstreamVeraSansMono.zip'
     ``` 
 
-3. **Descompactar fonte**:
+4. **Descompactar fonte**:
 
     ```bash
     unzip ~/.fonts/BitstreamVeraSansMono.zip -d ~/.fonts
@@ -273,7 +297,7 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF ~/.fonts | grep Bitstream
+    ls -alF ~/.fonts | grep "Bitstream"
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
@@ -282,68 +306,74 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.fonts/ $HOME/.fonts/
     ``` 
 
-4. **Instalar a fonte `firacode`**:
+5. **Instalar a fonte `firacode`**:
 
     ```bash
     sudo apt install fonts-firacode -y
     ```
 
-5. Fechar o `Terminal Emulator` e abrir novamente
+6. Fechar o `Terminal Emulator` e abrir novamente
 
-6. Clicar na aba: `Edit`
+7. Clicar na aba: `Edit`
 
-7. Clicar em `Preferences...`
+8. Clicar em `Preferences...`
 
-8. No campo `Font` clicar na fonte e alterar para `Fira Code Regular`
+9. No campo `Font` clicar na fonte e alterar para `Fira Code Regular`
 
 
 ### 4. Configurar/Instalar/Usar o tema `powerlevel10k`
 
-1. **Instalar o tema `powerlevel10k`**:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
     ```bash
-    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+    Ctrl + Alt + T
+    ```
+
+2. **Instalar o tema `powerlevel10k`**:
+
+    ```bash
+    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
     ```
 
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
     ls -alF $HOME/.oh-my-zsh/themes/
-    ls -alF ~/ | grep powerlevel10k
+    ls -alF ~/ | grep "powerlevel10k"
     ```
 
     1.1 Copiar a pasta também para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/
+    ls -alF $HOME/
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
     ```bash
-    sudo cp -R /home/edenedfsls/.oh-my-zsh/themes/* /home/edenedfsls/.oh-my-zsh/themes/
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/powerlevel10k/* /home/edenedfsls/powerlevel10k/
+    sudo cp -R $HOME/.oh-my-zsh/themes/* $HOME/.oh-my-zsh/themes/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/powerlevel10k/* $HOME/powerlevel10k/
     ```
 
-2. **Inserir o `powerlever10k` no arquivo de configuração do `zshrc`**:
+3. **Inserir o `powerlever10k` no arquivo de configuração do `zshrc`**:
 
     ```bash
     echo 'source ~/powerlevel10k/powerlevel10k.zsh-theme' >>~/.zshrc
     ```
 
-3. **Abrir o arquivo `~/.zshrc`**:
+4. **Abrir o arquivo `~/.zshrc`**:
 
     ```bash
     sudo nano ~/.zshrc
     ```
 
-4. **Editar o arquivo `~/.zshrc` alterar a linha, como segue**:
+5. **Editar o arquivo `~/.zshrc` alterar a linha, como segue**:
 
     ```bash
     ZSH_THEME="powerlevel10k/powerlevel10k"
     ```
 
-5. Fechar o `Terminal Emulator` e abrir novamente
+6. Fechar o `Terminal Emulator` e abrir novamente
 
 
 #### 4.1 Copiar demais arquivos antes de configurar o `powerlevel10k`
@@ -355,12 +385,15 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     - `.p10k.zsh`
     - `.zsh_history`
     - `.zshrc.pre-oh-my-zsh`
-    - `.zshrc`
+    - `.zshrc` (**CUIDADO**: Embora o código abaixo irá criar um arquivo de _backup_, se atentar para não perder informações importantes do seu arquivo `~/.zshrc`, caso já tenha configurado)
        
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
-    ls -alF /home/edenedfsls/
+    ls -alF $HOME/ | grep ".p10k.zsh"
+    ls -alF $HOME/ | grep ".zsh_history"
+    ls -alF $HOME/ | grep ".zshrc.pre-oh-my-zsh"
+    ls -alF $HOME/ | grep ".zshrc"
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
@@ -372,16 +405,17 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
     timestamp=$(date +"_backup_%m_%d_%Y_%H_%M_%S")
 
     # Copiar os arquivos de configuração adicionando o timestamp ao nome do arquivo
-    cp /home/edenedfsls/.p10k.zsh /home/edenedfsls/.p10k.zsh$timestamp
-    cp /home/edenedfsls/.zsh_history /home/edenedfsls/.zsh_history$timestamp
-    cp /home/edenedfsls/.zshrc.pre-oh-my-zsh /home/edenedfsls/.zshrc.pre-oh-my-zsh$timestamp
-    cp /home/edenedfsls/.zshrc /home/edenedfsls/.zshrc_linux_ubuntu$timestamp
+    cp $HOME/.p10k.zsh $HOME/.p10k.zsh$timestamp
+    cp $HOME/.zsh_history $HOME/.zsh_history$timestamp
+    cp $HOME/.zshrc.pre-oh-my-zsh $HOME/.zshrc.pre-oh-my-zsh$timestamp
+    cp $HOME/.zshrc $HOME/.zshrc_linux_ubuntu$timestamp
 
     # COPIAR OS NOVOS ARQUIVOS:
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.p10k.zsh /home/edenedfsls/
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zsh_history /home/edenedfsls/
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc.pre-oh-my-zsh /home/edenedfsls/
-    sudo cp -R /home/edenedfsls/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc /home/edenedfsls/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.p10k.zsh $HOME/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zsh_history $HOME/
+    sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc.pre-oh-my-zsh $HOME/
+    # **CUIDADO**: Embora o código abaixo irá criar um arquivo de _backup_, se atentar para não perder informações importantes do seu arquivo `~/.zshrc`, caso já tenha configurado
+    # sudo cp -R $HOME/Documents/Downloads/unix/ubuntu/oh_my_zsh/docs/.zshrc $HOME/
     ```
 
 #### 4.2 Configurar o `powerlevel10k`
@@ -435,26 +469,38 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
 
 #### 4.3.1 Ajustar as cores do `Terminal Emulator`
 
-1. No `Terminal Emulator`, na barra de ferramentas, clicar em: `Edit`
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
-2. Clique em: `Preferences`
+    ```bash
+    Ctrl + Alt + T
+    ```
 
-3. Clique na aba `Appearence`
+2. No `Terminal Emulator`, na barra de ferramentas, clicar em: `Edit`
 
-    3.1 Em `Background` altere a opção para `Transparent background`
+3. Clique em: `Preferences`
 
-    3.2 Em `Opacity` coloque em `0.85`
+4. Clique na aba `Appearence`
 
-4. Clique na aba `Colors`
+    4.1 Em `Background` altere a opção para `Transparent background`
+
+    4.2 Em `Opacity` coloque em `0.85`
+
+5. Clique na aba `Colors`
 
     4.1 Em `Presets` selecione `Tango`
 
-5. Em `General`, em `Text color:` selecione a cor `Dourada` para que fique visível.
+6. Em `General`, em `Text color:` selecione a cor `Dourada` para que fique visível.
 
 
 ### 4.4 Reconfigurar o `powerlevel10k`
 
-1. Para reconfigurar o `Powerlevel10k` no `Zsh`, você pode executar o comando de configuração fornecido pelo próprio tema. Abra o `Terminal Emulator` e digite o seguinte:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. Para reconfigurar o `Powerlevel10k` no `Zsh`, você pode executar o comando de configuração fornecido pelo próprio tema. Abra o `Terminal Emulator` e digite o seguinte:
 
     ```bash
     p10k configure
@@ -462,9 +508,62 @@ Para configurar/instalar/usar o `oh-my-zsh` no `Linux Ubuntu` sem precisar digit
 
 Isso iniciará o assistente de configuração do `Powerlevel10k`, onde você poderá escolher várias opções para personalizar o visual e o comportamento do seu `prompt` de comando. Se você tiver algum arquivo de configuração anterior, como `~/.p10k.zsh`, o assistente pode usar essas configurações como base ou você pode começar uma nova configuração do zero.
 
+### 4.5 Desativação seletiva do status `Git` no _prompt_ dentro de `~/Documents`
+
+Para otimização do `Zsh`/`Powerlevel10k` para `mount` em `~/Documents` e redução de travamentos do 
+`Terminal Emulator` em `mount FUSE` com `Powerlevel10k`
+
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. O que pode pesar no caso de `mount` é o segmento `vcs` do `powerlevel10k`, que usa `gitstatus` 
+para recalcular o estado do repositório a cada `redraw` do _prompt_. Dentro de um `mount FUSE` isso 
+é exatamente o tipo de acesso pequeno e frequente que pode “segurar” o `Terminal Emulator` quando a
+rede oscila. A boa notícia é que o próprio `powerlevel10k` já tem uma chave nativa para isso.
+No seu arquivo `~/.p10k.zsh` deve haver:
+
+    ```bash
+    # For example, if set to '~', the Git repository at $HOME/.git will be ignored.
+    # Multiple patterns can be combined with '|': '~(|/foo)|/bar/baz/*'.
+    typeset -g POWERLEVEL9K_VCS_DISABLED_WORKDIR_PATTERN='~'
+    ```
+
+    Logo, altere para:
+
+    ```bash
+    # Keep Git status everywhere else, but skip the mounted tree under ~/Documents.
+    # This avoids prompt redraws from touching the rclone FUSE mount on every command.
+    typeset -g POWERLEVEL9K_VCS_DISABLED_WORKDIR_PATTERN='~|~/Documents(|/*)'
+    ```
+
+    Efeito prático:
+
+    - fora de `~/Documents`, nada muda: `branch`, `dirty state`, `untracked` etc. continuam no _prompt_
+    - em `~/Documents` e qualquer subdiretório do `mount`, o _prompt_ para de consultar `git`
+    - seus repositórios continuam existindo, sincronizando e funcionando normalmente; só o _prompt_ 
+    deixa de inspecioná-los automaticamente ali
+
+    Isso é melhor do que desativar `git` globalmente, porque ataca só a área problemática: o `tree` 
+    montado, por exemplo, pelo `rclone`.
+
+3. Para ativar na sessão atual sem abrir outro `Terminal Emulator`:
+
+    ```bash
+    source ~/.p10k.zsh
+    ```
+
 ## 5. Mudar o seu `shell` de volta para o `bash` (ou outro `shell` de sua preferência) com o comando
 
-1. Finalmente, mude o seu `shell` de volta para o `bash` (ou outro `shell` de sua preferência) com o comando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. Finalmente, mude o seu `shell` de volta para o `bash` (ou outro `shell` de sua preferência) com o comando:
 
     ```bash
     sudo chsh -s /bin/bash
@@ -472,7 +571,7 @@ Isso iniciará o assistente de configuração do `Powerlevel10k`, onde você pod
 
     Você precisará fechar a sessão e logar novamente para que a alteração tenha efeito.
 
-2. **Iniciar o `bash` Manualmente:** Caso **NÃO** funcione, como solução temporária, você pode iniciar o `bash` manualmente em um `Terminal Emulator` do `oh-my-zsh`, simplesmente digitando bash. Isso não muda seu `shell` padrão, mas inicia uma sessão do `bash` naquele `Terminal Emulator` específico.
+3. **Iniciar o `bash` Manualmente:** Caso **NÃO** funcione, como solução temporária, você pode iniciar o `bash` manualmente em um `Terminal Emulator` do `oh-my-zsh`, simplesmente digitando bash. Isso não muda seu `shell` padrão, mas inicia uma sessão do `bash` naquele `Terminal Emulator` específico.
 
 
 ## 6. Alterar a opacidade/transparência do `Terminal Emulator`
@@ -481,7 +580,11 @@ A referência específica à transparência padrão do `Terminal Emulator` no `K
 
 No entanto, se você deseja ajustar ou verificar a transparência do seu `Terminal Emulator` no `Kali Linux`, você geralmente pode fazer isso através das preferências do próprio `Terminal Emulator`. Por exemplo, no GNOME Terminal, você pode seguir estes passos:
 
-1. Abra o `Terminal Emulator`.
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 2. Clique com o botão direito dentro do `Terminal Emulator` e selecione `“Preferences”` ou `“Profile Preferences”`.
 
@@ -493,15 +596,21 @@ No entanto, se você deseja ajustar ou verificar a transparência do seu `Termin
 
 Para adicionar o ícone da cobra (`Python`) no _prompt_ do tema `Powerlevel10k` em `zsh`, você precisa configurar o segmento do ambiente `Python` (como o `pyenv`, `virtualenv`, `anaconda` etc.) para incluir um ícone. Aqui estão os passos gerais:
 
-1. **Acesse o Arquivo de Configuração**: Abra o arquivo `~/.p10k.zsh` em um editor de texto. Esse arquivo é gerado pelo `Powerlevel10k` quando você configura o tema pela primeira vez com `p10k configure`. Execute o comando:
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. **Acesse o Arquivo de Configuração**: Abra o arquivo `~/.p10k.zsh` em um editor de texto. Esse arquivo é gerado pelo `Powerlevel10k` quando você configura o tema pela primeira vez com `p10k configure`. Execute o comando:
 
     ```bash
     sudo nano ~/.p10k.zsh
     ```
 
-2. **Localize o Segmento de Configuração Python**: Procure a seção que configura o ambiente `Python` que você está usando. Por exemplo, se você estiver usando `virtualenv`, procure por configurações que começam com `POWERLEVEL9K_VIRTUALENV_`.
+3. **Localize o Segmento de Configuração Python**: Procure a seção que configura o ambiente `Python` que você está usando. Por exemplo, se você estiver usando `virtualenv`, procure por configurações que começam com `POWERLEVEL9K_VIRTUALENV_`.
 
-3. **Adicionar ou modificar o ícone**: Adicione ou altere a linha que define o ícone. Por exemplo, para `virtualenv`, você pode adicionar:
+4. **Adicionar ou modificar o ícone**: Adicione ou altere a linha que define o ícone. Por exemplo, para `virtualenv`, você pode adicionar:
 
     ```bash
     typeset -g POWERLEVEL9K_VIRTUALENV_VISUAL_IDENTIFIER_EXPANSION='🐍'
@@ -509,13 +618,13 @@ Para adicionar o ícone da cobra (`Python`) no _prompt_ do tema `Powerlevel10k` 
 
     Isso definirá o ícone da cobra para o ambiente virtual `Python`.
 
-4. **Aplicar as mudanças**: Depois de fazer as alterações, salve o arquivo e reinicie o `Terminal Emulator` ou recarregue sua configuração com:
+5. **Aplicar as mudanças**: Depois de fazer as alterações, salve o arquivo e reinicie o `Terminal Emulator` ou recarregue sua configuração com:
 
     ```bash
     source ~/.zshrc
     ```
 
-5. Reinicie o computador:
+6. Reinicie o computador:
 
     ```bash
     sudo reboot
